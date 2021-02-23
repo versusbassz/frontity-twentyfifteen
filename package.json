@@ -6,7 +6,7 @@
     "frontity",
     "frontity-theme"
   ],
-  "license": "Apache-2.0",
+  "license": "GNU GPL 2",
   "dependencies": {
     "frontity": "^1.14.1"
   }
