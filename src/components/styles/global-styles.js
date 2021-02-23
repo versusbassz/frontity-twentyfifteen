@@ -1,4 +1,5 @@
 import { css } from "frontity";
+import genericonsCss from "../../fonts/genericons/genericons.css";
 
 /**
  * 1.0 - Reset
@@ -109,6 +110,9 @@ const Reset = () => css`
 const globalStyles = () => {
   return css([
     Reset(),
+
+    // wp_enqueue_style( 'genericons', get_template_directory_uri() . '/genericons/genericons.css', array(), '20201208' );
+    css(genericonsCss),
   ]);
 }
 
