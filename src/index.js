@@ -1,18 +1,10 @@
 import React from "react";
-
-const Root = () => {
-  return (
-    <>
-      You can edit your package in:
-      <pre>packages/twentyfifteen-theme/src/index.js</pre>
-    </>
-  );
-};
+import Theme from "./components";
 
 export default {
   name: "twentyfifteen-theme",
   roots: {
-    theme: Root
+    theme: Theme
   },
   state: {
     theme: {}
